@@ -14,6 +14,7 @@ JZlib is a re-implementation of zlib in pure Java.
 The first and final aim for hacking this stuff is
 to add the packet compression support to pure Java SSH systems.
 
+This version updates the library to add jpms support for Java 11.
 
 Documentation
 =============
@@ -75,15 +76,7 @@ This is our motivation to hack JZlib.
 
 Building Jar File
 =================
-Use 'sbt'(https://github.com/harrah/xsbt/wiki),
-  % sbt package
-or
   % mvn package
-or
-  % cd src/main/java
-  % javac -target 1.5 com/jcraft/jzlib/*.java
-  % jar -cvf jzlib.jar com/jcraft/jzlib/*.class
-
 
 A unofficial patch for MindTerm v.1.2.1
 =======================================
